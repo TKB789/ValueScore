@@ -1,0 +1,83 @@
+# 🚀 Graham Value Platform - GitHub Upload (2 minutes)
+
+## Quick Steps
+
+### 1. Create Empty Repo on GitHub
+- Go: https://github.com/new
+- Name: `graham-value-platform`
+- Click **Create** (don't add README/license)
+
+### 2. Push Your Code
+```bash
+# Extract graham-value-platform.zip
+unzip graham-value-platform.zip
+cd graham-value-platform
+
+# Initialize git
+git init
+git branch -M main
+git add .
+git commit -m "Initial commit: Graham Value Platform"
+
+# Add remote and push
+git remote add origin https://github.com/YOUR_USERNAME/graham-value-platform.git
+git push -u origin main
+```
+
+### 3. Done! ✅
+Go to: `https://github.com/YOUR_USERNAME/graham-value-platform`
+
+---
+
+## What's in the Zip
+
+**14 Files Total:**
+- 2 Code files (server.js, App.jsx)
+- 1 Config file (package.json)
+- 6 Doc files (README, GETTING_STARTED, DEPLOYMENT, etc.)
+- 3 Deployment configs (Dockerfile, docker-compose, vercel.json)
+- 1 Setup script (setup.sh)
+- 1 Git config (.gitignore)
+
+---
+
+## ⚠️ Critical: Protect API Keys
+
+The `.gitignore` file **protects your .env file** (where you put API keys).
+
+✅ Git tracks: `.env.example` (template)
+❌ Git ignores: `.env` (your real keys)
+
+**Never commit real API keys to GitHub!**
+
+---
+
+## Next: Share Your Repo
+
+Once it's on GitHub, you can:
+- Share the URL with friends
+- Use as portfolio project
+- Get contributions from others
+- Deploy from GitHub (Heroku, Vercel auto-sync)
+
+---
+
+## FAQ
+
+**Q: Do I have to make it public?**  
+A: No, you can keep it private. GitHub doesn't charge for private repos.
+
+**Q: Can people copy my API keys?**  
+A: No, `.gitignore` prevents that. The repo only has `.env.example` (template).
+
+**Q: How do I keep it updated?**  
+A: Push new changes with `git push`
+
+**Q: Can I add a license?**  
+A: Yes! See GITHUB_SETUP.md for details.
+
+---
+
+**That's it!** Your project is now on GitHub! 🎉
+
+For more details, see **GITHUB_SETUP.md** in the zip.
